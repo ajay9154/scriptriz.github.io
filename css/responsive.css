@@ -1,0 +1,51 @@
+@media (max-width: 800px) {
+    .service-box-1 {
+        --auto-grid-min-size: 13rem;
+        grid-gap: .5rem;
+    }
+    .source-code-box {
+        width: 100%;
+        padding: 1rem;
+        background-color: white;
+        border-radius: 5px;
+    }
+  
+}
+
+@media (max-width: 639px) {
+    .submit-button {
+        display: block !important;
+      }
+}
+
+@media (max-width: 480px) {
+    .flip-box {
+        width: 100%;
+    }
+    .tutorial-boxes-heading {
+        padding: 1rem 1.5rem;
+    }
+    .flip-box-front {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        flex-direction: row;
+        padding: 0 1rem;
+    }
+    .service {
+        margin: 8px;
+        display: none;
+        width: 100%;
+        padding: 0 1rem;
+    }
+}
+.service {
+    margin: 8px;
+    display: none;
+}
